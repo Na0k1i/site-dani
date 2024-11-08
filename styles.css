@@ -1,0 +1,140 @@
+/* Reset de estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F0F8FF;
+  color: #003366;
+  line-height: 1.6;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.banner-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #EB9B00;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #FF8C00;
+}
+
+.sobre, .biodiversidade, .preservacao, .contato {
+  padding: 40px 0;
+}
+
+.sobre p, .biodiversidade p, .preservacao p, .contato p {
+  font-size: 1.1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #002244;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
